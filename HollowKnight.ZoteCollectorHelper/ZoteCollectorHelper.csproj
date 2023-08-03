@@ -7,10 +7,14 @@
 		<Deterministic>true</Deterministic>
 		<ImplicitUsings>true</ImplicitUsings>
 		<DebugType>portable</DebugType>
-		<RootNamespace>ZoteSummonNoLimit</RootNamespace>
+		<RootNamespace>ZoteCollectorHelper</RootNamespace>
 		<ReferenceInstallation>C:\Users\yunjo\My Drive\Archive\Matroid\Games\Hollow Knight\Mods\Resources\Managed 1.5.78.11833</ReferenceInstallation>
 		<ActualInstallation>C:/Program Files (x86)/Steam/steamapps/common/Hollow Knight/hollow_knight_Data/Managed</ActualInstallation>
 	</PropertyGroup>
+	<ItemGroup>
+		<EmbeddedResource Include="GG_Statue_GreyPrince.png" />
+		<EmbeddedResource Include="Grey Prince.png" />
+	</ItemGroup>
 	<ItemGroup>
 		<Reference Include="Assembly-CSharp">
 			<HintPath>$(ReferenceInstallation)/Assembly-CSharp.dll</HintPath>
